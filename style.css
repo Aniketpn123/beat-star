@@ -1,0 +1,147 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  
+}
+body{
+  background: black;
+  
+}
+
+.mainbar{
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0px 64px;
+  height: 64px;
+}
+.left{
+  display: flex;
+  align-items:center ;
+
+}
+.right{
+  display: flex;
+  align-items: center;
+}
+.logo{
+ width: 24px; 
+ margin-right:16px;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  background: rgba(130, 130, 130,0.5);
+  border-radius: 20px;
+  width: 500px;
+  height: 35px;
+  padding: 10px;
+  border: 0.5px solid rgb(151, 151, 151);
+}
+#search-btn{
+  width: 2px;
+  height: 2px;
+  
+  }
+.inputbar{
+  display: flex;
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  font-size: 15px;
+}
+.inputbar::placeholder{
+  color: rgb(170, 169, 169);
+  font-size: 15px;
+  font-weight: 100;
+}
+.inputbar:focus{
+  outline: none;
+}
+.search-bar-tracks{
+  display: inline;
+  color: rgb(170, 169, 169);
+  margin:10px;
+}
+.btn{
+  display: flex;
+  align-items:center ;
+  color: rgb(160, 159, 159);
+  padding: 6px 12px;
+  margin: 0px 10px ;
+}
+.btn button{
+  color: white;
+  background:rgba(110, 110, 110, 0.5);
+  padding: 7px 12px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: none;
+  margin-left: 20px;
+  letter-spacing: 2px;
+
+}
+.btn button:hover{
+  background:rgba(144, 144, 144, 0.5);
+}
+.vert{
+ width: 1px;
+ height: 10px;
+ background-color: rgb(110, 110, 110);
+ margin: 10px;
+}
+
+.profile{
+  width: 24px;
+  border-radius: 50%;
+  margin: 0px 15px ;
+}
+.notification{
+  width: 24px;
+ 
+  margin: 0px 15px ;
+}
+.cart{
+  width: 22px;
+  margin: 0px 15px ;
+}
+
+.bar{
+  display: flex;
+  background: rgb(30,30,3 0);
+  padding: 0px 64px;
+
+}
+
+.ul{
+  text-decoration: none;
+  color: rgb(160, 159, 159);
+  display: flex;
+  height: 48px;
+  align-items: center;
+  list-style: none;
+}
+.ul li{
+  margin-right: 30px;
+  padding:5px;
+  font-size: 16px;
+
+
+  
+}
+.ul li:hover{
+  border-bottom: 2px solid white;
+}
+li span{
+  background-color: rgb(255, 187, 0);
+  margin-left: 5px;
+  padding:4px 6px;
+  border-radius: 10px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: black;
+}
